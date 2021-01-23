@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css-contact/contact.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Contact-Muhammad Robi Sasaki</title>
+</head>
+<body>
+    <main>
+        <div class="logo">
+            <a href="home.html" style="font-family: 'Poppins', sans-serif;">Robi Sasaki</a>
+        </div>
+        <div class="glass">
+            <div class="dashboard">
+                <header>
+                    <img src="img/1.png" alt="profile-user" width="125px" height="125px" style="border-radius: 50%";>
+                </header>
+                <nav>
+                    <a href="home.html" class="home">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <a href="portfolio.html" class="portfolio">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="blog.html" class="blog">
+                        <i class="fab fa-blogger"></i>
+                    </a>
+                </nav>
+                <footer>
+                    <div class="random-quotes fas fa-quote-left"></div>
+                    <a href="contact.html" class="contact active">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </footer>
+            </div>
+            <div class="main-page" style="padding: 10px">
+                <div class="h3" style="font-family: 'Poppins', sans-serif; font-weight: 600;">hover below me!</div>
+                <div class="main-page-header">
+                    <div class="glass-contact">
+                        <div class="content-box">
+                            <div class="contents">
+                                <h3>Muhammad Robi Sasaki</h3>
+                                <p>a college Student</p>
+                            </div>
+                            <div class="social-medias">
+                                <a href="https://www.facebook.com"  class="fab fa-facebook-f"></a>
+                                <a href="https://www.instagram.com"  class="fab fa-instagram"></a>
+                                <a href="https://www.youtube.com"  class="fab fa-discord"></a>
+                            </div>
+                            <div class="contact-me">
+                                <a href="https://whatsapp.com" class="fab fa-whatsapp"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+
+
+    <script src="app.js"></script>
+    <script src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".glass-contact"), {
+            max: 25,
+            speed: 400
+        });
+
+        // //It also supports NodeList
+        // VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+</body>
+</html>
